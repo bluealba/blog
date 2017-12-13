@@ -1,0 +1,24 @@
+
+//
+// VARIABLES
+//
+
+// Colors
+$blue: #67A5BA;
+
+// Grays
+$black: #000;
+$darkerGray: #222;
+$darkGray: #333;
+$gray: #666;
+$lightGray: #eee;
+$white: #fff;
+
+$roboto: 'Roboto', Helvetica, Arial, sans-serif;
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}
