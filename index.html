@@ -6,10 +6,10 @@ layout: default
   {% for post in site.posts %}
     <article class="post">
       <div class="topImage">
-        <img src="{{ post.headerImage }}" />
+        <img src="{{ site.baseurl }}/{{ post.headerImage }}" />
       </div>
       <div class="author">
-        <div class="avatar"><img src="{{ post.author.avatar }}" /></div>
+        <div class="avatar"><img src="{{ site.baseurl }}/{{ post.author.avatar }}" /></div>
         <div class="name">by {{ post.author.name }}</div>
       </div>
       
